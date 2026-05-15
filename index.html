@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tic Tac Toe Pro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h1>🎮 Tic Tac Toe</h1>
+
+    <h3 id="score">X: 0 | O: 0</h3>
+
+    <button onclick="toggleTheme()">🌙 Toggle Theme</button>
+
+    <div class="mode">
+        <button onclick="setMode('player')">2 Player</button>
+        <button onclick="setMode('computer')">Vs Computer</button>
+    </div>
+
+    <div id="board" class="board"></div>
+
+    <h2 id="status"></h2>
+
+    <button class="restart" onclick="restartGame()">Restart</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
